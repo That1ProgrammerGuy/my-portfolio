@@ -15,7 +15,7 @@ const Navbar = () => {
                 <h1 className='w-full text-3xl font-bold text-[#00DED3]'>amora</h1>
             </div>
             <ul className='hidden md:flex'>
-                <li className='p-4'>Home</li>
+                <li className='p-4'><a href="index.js">Home</a></li>
                 <li className='p-4'>About</li>
                 <li className='p-4'>Projects</li>
                 <li className='p-4'>Contact</li>
