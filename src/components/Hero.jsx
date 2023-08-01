@@ -12,12 +12,15 @@ const Hero = () => {
             strings = {['^2000 I am John Kenneth Gamora']}
             typeSpeed={40} showCursor={false}/>
             <div className='flex justify-center items-center'>
-                <Typed className='md:text-5xl sm:text-4xl text-2xl font-bold' 
+                <Typed className='md:text-5xl sm:text-4xl text-2xl font-bold py-4' 
                 strings = {['^4000An aspiring']} 
                 typeSpeed={60} showCursor={false}/>
                 <Typed className='md:text-5xl sm:text-4xl text-2xl font-bold md:pl-4 pl-2 text-[#00DED3]' 
                 strings={['^5000Front-end Developer','Back-end Developer' , 'Video Editor', 'Game Developer', 'Software Engineer']} 
-                startDelay={200} typeSpeed={40} backSpeed={40}
+                startDelay={200} 
+                typeSpeed={40} 
+                backSpeed={40}
+                showCursor={false}
                 loop/>
             </div>
         </div>

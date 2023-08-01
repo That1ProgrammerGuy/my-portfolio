@@ -16,10 +16,12 @@ const Navbar = () => {
             </div>
             <ul className='hidden md:flex'>
                 <li className='p-4'><a href="index.js">Home</a></li>
-                <li className='p-4'>About</li>
-                <li className='p-4'>Projects</li>
-                <li className='p-4'>Contact</li>
+                <li className='p-4'><a href="index.js">About</a></li>
+                <li className='p-4'><a href="index.js">Project</a></li>
+                <li className='p-4'><a href="index.js">Contact</a></li>
+                <button className='w-[200px] rounded-xl font-medium  bg-white text-[black] py-1px'>Contact Me</button>
             </ul>
+            
             <div onClick={handleMenu} className='block md:hidden'>
                 {isOpen ? <IoMdClose className='text-3xl cursor-pointer'/> : <IoMdMenu className='text-3xl cursor-pointer'/>}
             </div>
@@ -32,7 +34,7 @@ const Navbar = () => {
                         <li className='p-4 border-b border-gray-600'>Home</li>
                         <li className='p-4 border-b border-gray-600'>About</li>
                         <li className='p-4 border-b border-gray-600'>Projects</li>
-                        <li className='p-4'>Contact</li>
+                        <li className='p-4 border-b border-gray-600'>Contact</li>
                     </ul>
             </div>
         </div>
