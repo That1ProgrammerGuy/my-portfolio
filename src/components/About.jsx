@@ -1,5 +1,6 @@
 import React from "react";
 import myphoto from "../assets/images/myphoto.png";
+import {Link} from 'react-scroll'
 
 
 const About = () => {
@@ -12,7 +13,7 @@ const About = () => {
           <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>John Kenneth Gamora</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ab provident architecto tempore? Distinctio obcaecati nobis, mollitia, est cumque quae quos, quaerat perspiciatis exercitationem ex possimus reiciendis ea odio sequi!</p>
           <button className='bg-black text-[#00DED3] w-[200px] rounded-xl font-bold my-6 mx-auto md:mx-0 py-3'>
-            Contact Me
+          <Link to="contact">Contact Me</Link>
           </button>
         </div>
       </div>

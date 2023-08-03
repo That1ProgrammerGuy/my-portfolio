@@ -1,5 +1,6 @@
 import React from 'react'
 import Typed from 'react-typed'
+import {Link} from 'react-scroll'
 
 const Hero = () => {
   return (
@@ -23,7 +24,7 @@ const Hero = () => {
                 showCursor={false}
                 loop/>
             </div>
-            <button className='bg-[#00DED3] text-black w-[200px] rounded-xl font-bold my-6 mx-auto py-4'>Contact Me</button>
+            <button className='bg-[#00DED3] text-black w-[200px] rounded-xl font-bold my-6 mx-auto py-4'><Link to="contact">Contact Me</Link></button>
         </div>
     </div>
   )
