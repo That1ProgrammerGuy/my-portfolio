@@ -23,7 +23,9 @@ const Navbar = () => {
                 <li className='p-4'><Link to="about">About</Link></li>
                 <li className='p-4'><Link to="projects">Projects</Link></li>
                 <li className='p-4'><Link to="contact">Contact</Link></li>
-                <button className='w-[150px] rounded-xl font-medium  bg-[#00DED3] text-[black] my-3 py-1'><Link to="contact">Contact Me</Link></button>
+                <button className='w-[150px] rounded-xl font-medium  bg-[#00DED3] text-[black] my-3 py-1'>
+                    <Link to="contact">Contact Me</Link>
+                </button>
             </ul>
             
             <div onClick={handleMenu} className='block md:hidden'>
