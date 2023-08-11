@@ -19,10 +19,10 @@ const Navbar = () => {
                 <h1 className='w-full text-3xl font-bold text-white'>amora</h1>
             </div>
             <ul className='cursor-pointer hidden md:flex'>
-                <li className='p-4'><Link to="home">Home</Link></li>
-                <li className='p-4'><Link to="about">About</Link></li>
-                <li className='p-4'><Link to="projects">Projects</Link></li>
-                <li className='p-4'><Link to="contact">Contact</Link></li>
+                <li className='p-4'><Link to="home" smooth={true}>Home</Link></li>
+                <li className='p-4'><Link to="about" smooth={true}>About</Link></li>
+                <li className='p-4'><Link to="projects" smooth={true}>Projects</Link></li>
+                <li className='p-4'><Link to="contact" smooth={true}>Contact</Link></li>
                 <button className='w-[150px] rounded-xl font-medium  bg-[#00DED3] text-[black] my-3 py-1'>
                     <Link to="contact">Contact Me</Link>
                 </button>
@@ -39,10 +39,10 @@ const Navbar = () => {
                     <h1 className='w-full text-3xl font-bold text-white'>amora</h1>
                 </div>
                     <ul className='cursor-pointer md:flex p-4 uppercase mx-auto'>
-                        <li className='p-4 border-b border-gray-600'><Link to="home">Home</Link></li>
-                        <li className='p-4 border-b border-gray-600'><Link to="about">About</Link></li>
-                        <li className='p-4 border-b border-gray-600'><Link to="projects">Projects</Link></li>
-                        <li className='p-4 border-b border-gray-600'><Link to="contact">Contact</Link></li>
+                        <li className='p-4 border-b border-gray-600'><Link to="home" smooth={true}>Home</Link></li>
+                        <li className='p-4 border-b border-gray-600'><Link to="about" smooth={true}>About</Link></li>
+                        <li className='p-4 border-b border-gray-600'><Link to="projects" smooth={true}>Projects</Link></li>
+                        <li className='p-4 border-b border-gray-600'><Link to="contact" smooth={true}>Contact</Link></li>
                     </ul>
             </div>
         </div>
