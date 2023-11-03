@@ -23,8 +23,8 @@ const Navbar = () => {
                 <li className='p-4 mx-2 hover:bg-[#00DED3] hover:bg-opacity-100 transition-colors rounded-2xl'><Link to="about" smooth={true}>About</Link></li>
                 <li className='p-4 mx-2 hover:bg-[#00DED3] hover:bg-opacity-100 transition-colors rounded-2xl'><Link to="projects" smooth={true}>Projects</Link></li>
                 <li className='p-4 mx-2 hover:bg-[#00DED3] hover:bg-opacity-100 transition-colors rounded-2xl'><Link to="contact" smooth={true}>Contact</Link></li>
-                <button className='w-[150px] mx-2 rounded-xl font-medium  bg-[#00DED3] text-[black] my-3 py-1'>
-                    <Link to="contact">Contact Me</Link>
+                <button className='w-[150px] mx-1 rounded-xl font-medium  bg-[#00DED3] text-[black] my-0.5 py-1'>
+                    <Link to="contact" smooth={true}>Contact Me</Link>
                 </button>
             </ul>
             

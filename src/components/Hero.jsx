@@ -49,7 +49,7 @@ const Hero = () => {
 
         {/* Contact Button */}
         <button className='bg-[#00DED3] text-black w-[200px] rounded-xl font-bold my-4 mx-auto py-3'>
-          <Link to='contact'>Contact Me</Link>
+          <Link to='contact' smooth>Contact Me</Link>
         </button>
       </div>
     </div>
